@@ -29,7 +29,7 @@ finish-args:
   # Font config
   - --filesystem=xdg-config/fontconfig:ro
   # IME
-  # - --env=QT_IM_MODULE=
+  - --env=QT_IM_MODULE=fcitx5
   # Hidpi scale
   - --env=QT_AUTO_SCREEN_SCALE_FACTOR=1
   # Fix `Could not find the Qt platform plugin "wayland"`
